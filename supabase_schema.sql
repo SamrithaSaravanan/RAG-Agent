@@ -138,3 +138,4 @@ CREATE POLICY "Service role full access schemes" ON schemes
 -- Create a public or authenticated bucket named 'scheme-documents'
 -- INSERT INTO storage.buckets (id, name, public) VALUES ('scheme-documents', 'scheme-documents', true)
 -- ON CONFLICT (id) DO NOTHING;
+
